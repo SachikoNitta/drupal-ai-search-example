@@ -1,0 +1,20 @@
+.search-results {
+  margin-top: 2rem;
+}
+
+.search-result {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  background: #f9f9f9;
+}
+
+.search-result h4 {
+  margin-top: 0;
+  color: #007cba;
+}
+
+.search-result p {
+  margin-bottom: 0.5rem;
+}

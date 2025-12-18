@@ -1,0 +1,7 @@
+simple_ai_search.search_page:
+  path: '/simple-ai-search'
+  defaults:
+    _form: '\Drupal\simple_ai_search\Form\SearchForm'
+    _title: 'Simple AI Search'
+  requirements:
+    _access: 'TRUE'

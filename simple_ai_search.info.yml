@@ -1,0 +1,7 @@
+name: Simple AI Search
+type: module
+description: 'A simple AI-powered search interface with Gemini integration'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - search_api:search_api

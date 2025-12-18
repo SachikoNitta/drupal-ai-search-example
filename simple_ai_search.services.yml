@@ -1,0 +1,12 @@
+services:
+  simple_ai_search.gemini:
+    class: Drupal\simple_ai_search\Service\GeminiService
+    arguments:
+      - '@http_client'
+      - '@logger.factory'
+  
+  simple_ai_search.search_api_query:
+    class: Drupal\simple_ai_search\Service\SearchApiQueryService
+    arguments:
+      - '@entity_type.manager'
+      - '@logger.factory'

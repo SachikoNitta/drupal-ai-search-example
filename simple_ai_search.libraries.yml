@@ -1,0 +1,9 @@
+ai-summary:
+  css:
+    theme:
+      css/ai-summary.css: {}
+
+search-results:
+  css:
+    theme:
+      css/search-results.css: {}
